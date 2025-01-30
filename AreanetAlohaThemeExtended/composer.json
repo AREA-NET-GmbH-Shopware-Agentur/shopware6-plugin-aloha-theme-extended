@@ -1,0 +1,22 @@
+{
+    "name": "areanet/aloha-theme-extended",
+    "description": "Extension Plugin for Aloha App Theme",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "AreanetAlohaThemeExtended\\AreanetAlohaThemeExtended",
+        "label": {
+            "de-DE": "aloha Theme Extension",
+            "en-GB": "aloha Theme Extension"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AreanetAlohaThemeExtended\\": "src/"
+        }
+    }
+}

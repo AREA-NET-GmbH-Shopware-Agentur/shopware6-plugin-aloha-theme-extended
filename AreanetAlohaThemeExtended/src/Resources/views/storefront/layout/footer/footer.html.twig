@@ -1,0 +1,6 @@
+{% sw_extends '@Storefront/storefront/layout/footer/footer.html.twig' %}
+
+{% block layout_footer_bottom %}
+  {{ cms_page(config('AreanetAlohaThemeExtended.config.cmspageFooter2')) }}
+  {{ parent() }}
+{% endblock %}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>CMS Pages for product detail page</title>
+        <title lang="de-DE">Erlebniswelten für Produktdetailseiten</title>
+        <component name="sw-entity-single-select">
+            <name>cmspagBbuyboxBelow</name>
+            <entity>cms_page</entity>
+            <label>After buy button</label>
+            <label lang="de-DE">Nah Warenkorbbuton</label>
+        </component>
+    </card>
+    <card>
+        <title>CMS Pages for footer</title>
+        <title lang="de-DE">Erlebniswelten für Footer</title>
+        <component name="sw-entity-single-select">
+            <name>cmspageFooter2</name>
+            <entity>cms_page</entity>
+            <label>After main footer</label>
+            <label lang="de-DE">Nach Hauptfooter</label>
+        </component>
+    </card>
+</config>

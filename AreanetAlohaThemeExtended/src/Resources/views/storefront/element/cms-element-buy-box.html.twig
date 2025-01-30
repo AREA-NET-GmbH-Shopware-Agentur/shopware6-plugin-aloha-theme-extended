@@ -1,0 +1,6 @@
+{% sw_extends '@Storefront/storefront/element/cms-element-buy-box.html.twig' %}
+
+{% block element_buy_box %}
+  {{ parent() }}
+  {{ cms_page(config('AreanetAlohaThemeExtended.config.cmspagBbuyboxBelow')) }}
+{% endblock %}
