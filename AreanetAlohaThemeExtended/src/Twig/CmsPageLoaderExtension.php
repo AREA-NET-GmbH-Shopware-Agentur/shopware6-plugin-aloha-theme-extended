@@ -27,9 +27,9 @@ class CmsPageLoaderExtension extends AbstractExtension
         ];
     }
 
-    public function loadCmsPage(array $context, string $cmsPageId)
+    public function loadCmsPage(array $context, string $cmsPageId = null)
     {
-        if (empty($context['context'])) {
+        if (empty($context['context']) or empty($cmsPageId)) {
             return;
         }
 

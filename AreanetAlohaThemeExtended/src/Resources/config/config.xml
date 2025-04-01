@@ -20,5 +20,10 @@
             <label>After main footer</label>
             <label lang="de-DE">Nach Hauptfooter</label>
         </component>
+        <input-field type="bool">
+            <name>mergeOptionsAndProperties</name>
+            <label>List variant options on the detail page as properties</label>
+            <label lang="de-DE">Variantenoptionen auf der Detailseie als Eigenschaften aufführen</label>
+        </input-field>
     </card>
 </config>
