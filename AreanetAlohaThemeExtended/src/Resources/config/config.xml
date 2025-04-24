@@ -25,5 +25,10 @@
             <label>List variant options on the detail page as properties</label>
             <label lang="de-DE">Variantenoptionen auf der Detailseie als Eigenschaften aufführen</label>
         </input-field>
+        <input-field type="bool">
+            <name>hideNotCombinableVariants</name>
+            <label>Hide inactive variants of the first level</label>
+            <label lang="de-DE">Inaktive Varianten der ersten Ebene ausblenden</label>
+        </input-field>
     </card>
 </config>

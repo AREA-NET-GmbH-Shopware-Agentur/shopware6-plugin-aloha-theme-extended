@@ -2,7 +2,7 @@
     "name": "areanet/aloha-theme-extended",
     "description": "Extension Plugin for Aloha App Theme",
     "type": "shopware-platform-plugin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "license": "MIT",
     "require": {
         "shopware/core": "~6.6.0"
