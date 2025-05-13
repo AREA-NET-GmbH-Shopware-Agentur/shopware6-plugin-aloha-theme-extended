@@ -4,6 +4,7 @@ All notable changes to this plugin will be documented in this file
 ## [1.2.0]
 
 - Inaktive Varianten ausblenden
+- 
 
 ## [1.1.0] 
 

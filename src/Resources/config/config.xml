@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Variants</title>
+        <title lang="de-DE">Varianten</title>
+        <input-field type="bool">
+            <name>mergeOptionsAndProperties</name>
+            <label>List variant options on the detail page as properties</label>
+            <label lang="de-DE">Variantenoptionen auf der Detailseie als Eigenschaften aufführen</label>
+        </input-field>
+        <input-field type="bool">
+            <name>hideNotCombinableVariants</name>
+            <label>Hide inactive variants of the first level</label>
+            <label lang="de-DE">Inaktive Varianten der ersten Ebene ausblenden</label>
+        </input-field>
+        <input-field type="bool" >
+            <name>showVariantsInListing</name>
+            <label>Show variants in listing</label>
+            <label lang="de-DE">Zeige Varianten im Listing an</label>
+            <helpText>Must be activated via the configuration in the aloha theme under Products->Product list settings->Variant display.</helpText>
+            <helpText lang="de-DE">Muss über die Konfiguration im aloha Theme unter Produkte->Produktliste-Einstellungen->Variantendarstellung aktiviert werden.</helpText>
+            <disabled>true</disabled>
+        </input-field>
+    </card>
+    <card>
+        <title>CMS Pages for product detail page</title>
+        <title lang="de-DE">Erlebniswelten für Produktdetailseiten</title>
+        <component name="sw-entity-single-select">
+            <name>cmspagBbuyboxBelow</name>
+            <entity>cms_page</entity>
+            <label>After buy button</label>
+            <label lang="de-DE">Nah Warenkorbbuton</label>
+        </component>
+    </card>
+    <card>
+        <title>CMS Pages for footer</title>
+        <title lang="de-DE">Erlebniswelten für Footer</title>
+        <component name="sw-entity-single-select">
+            <name>cmspageFooter2</name>
+            <entity>cms_page</entity>
+            <label>After main footer</label>
+            <label lang="de-DE">Nach Hauptfooter</label>
+        </component>
+
+    </card>
+</config>

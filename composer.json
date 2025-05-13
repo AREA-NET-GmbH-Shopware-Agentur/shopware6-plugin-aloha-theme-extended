@@ -4,6 +4,12 @@
     "type": "shopware-platform-plugin",
     "version": "1.2.0",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "AREA-NET GmbH",
+            "homepage": "https://www.area-net.de"
+        }
+    ],
     "require": {
         "shopware/core": "~6.6.0"
     },
@@ -12,6 +18,14 @@
         "label": {
             "de-DE": "aloha Theme Extension",
             "en-GB": "aloha Theme Extension"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.area-net.de",
+            "en-GB": "https://www.area-net.de"
+        },
+        "supportLink": {
+            "de-DE": "https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-aloha-theme-extended/issues",
+            "en-GB": "https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-aloha-theme-extended/issues"
         }
     },
     "autoload": {

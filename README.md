@@ -1,17 +1,40 @@
-# Erweiterung für das aloha Theme: Erlebniswelten
+# aloha Theme Extension
+
+Kostenlose Erweiterung für das [aloha App Theme](https://store.shopware.com/en/arean62788672693m/a-better-cms-theme-optimized-checkout-b2b-functions-flexibly-customizable.html) im Shopware Store.
+
+## Erweiterte Variantendarstellung
+
+- Varianten (z.B. Farben im Listing darstellen) mit Bildvorschau bei Hover
+- Variantenoptionen auf der Produktdetailseie als Eigenschaften aufführen
+- Inaktive Varianten der ersten Ebene auf der Produktdetailseie  ausblenden
+
+![variants.png](images/variants.png)
+
+## Flexible Layout-Erweiterung mit Erlebniswelten
 
 Erlaubt es Erlebniswelten an definierten Stellen im Theme als Erweiterung hinzufügen:
 
 - Unterhalb des Warenkorbbuttons auf der Produktdetailseite
 - Im Footer
 
-## Supported Shopware versions
+# Installation
 
-- 6.6
+## Unterstützte Shopware Versionen und Changelog
 
-## Changelog
+Stand 13.05.2025:
+- **6.6.0.0 - 6.6.10.4**
+- Benötigt aloha Theme ab Version 3.5.0
+- [Changelog](CHANGELOG.md)
 
-see [Changelog](AreanetCanonicalVariants/CHANGELOG.md)
+### ZIP-Release
+
+Download des entsprechenden ZIP-Files von der [Release-Seite](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-aloha-theme-extended/releases) und Installation/Upload in der Shopware-Administration unter Erweiterungen.
+
+### Composer
+
+`composer require areanet/aloha-theme-extended`
+
+
 
 ## Shopware Theme und Plugins
 
